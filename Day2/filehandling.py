@@ -1,0 +1,5 @@
+f=open("languages_to_learn_in_python.txt","r+")
+print(f.read())
+print(f.write("a"))
+print(f.read())
+f.close()
