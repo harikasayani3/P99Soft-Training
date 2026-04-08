@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        html{
+            font-size: 16px;
+        }
+        header{
+            width: 100%;
+            background: orange;
+            color:white;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px;
+        }
+        .menu-items{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap:4px;
+            flex-direction: row;
+        }
+        .menu-items li{
+            margin:0px 4px;
+            list-style: none;
+        }
+        main{
+            display: flex;
+            width: 100%;
+        }
+        main div{
+            width: 80%;
+            background-color: white;
+        }
+        main aside{
+            background-color: rgb(213, 186, 190);
+            height: 100vh;
+            width: 20%;
+        }
+        footer{
+            background-color: aquamarine;
+        }
+        #head{
+            background-color: pink;
+        }
+        .btn{
+            background-color: green;
+            padding: 12px;
+            cursor: pointer;
+        }
+        .square{
+            background-color: black;
+            width: 30px;
+            height: 30px;
+
+        }
+        .square{
+            /* position:absolute; */
+            float: right;
+        }
+        .grid-container{
+            display:flex;
+            align-items: center;
+            margin:5%;
+            gap:5%;
+        }
+        .card-container{
+            width: 35%;
+            height:25%;
+            background-color: gray;
+            padding:2%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="" alt="logo"></img>
+            </div>
+            <div class="menu-items">
+                <li class="btn">Home</li>
+                <li class="btn">Contact</li>
+                <li class="btn">Lorem</li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- <div class="content">
+            <div class="square">hi</div>
+        </div> -->
+        <div class="grid-container">
+            <div class="card-container">Lorem ipsum. dolor sit amet consectetur adipisicing elit. Ullam porro molestiae, s aperiam! Id, iste laboriosam.</div>
+            <div class="card-container">Lorem ipsum dolor siadipisiciatis a odio expedita dolores nam dolore, fuga cumque inventore non quidem hic quod quaerat aspernatur aperiam obcaecati.</div>
+            <div class="card-container">Lorem ipsum . Quo, tenetur quae. Eveniet hic culpa velit distinctio tempore animi consectetur expedita, facilis quaerat eaque optio, quibusdam om</div>
+        </div>
+
+        <aside></aside>
+    </main>
+    
+    <footer>This is footer section</footer>
+</body>
+</html>
