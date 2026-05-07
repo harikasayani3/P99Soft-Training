@@ -1,0 +1,3 @@
+Node.js is a javascript runtime environment
+It is open source and cross platform
+It allows to execute javascript code
